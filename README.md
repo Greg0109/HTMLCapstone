@@ -1,6 +1,6 @@
 # Project 4 - HTMLCapstone
 
-> This is the Project 4 in the Microverse course
+This is the Project 4 in the Microverse course. It is based on the design "[Zattix](https://www.behance.net/gallery/24796463/ZATTIX)" by Mohammed Awad.
 
 ### View in browser
 [Live](https://greg0109.github.io/HTMLCapstone/)
@@ -49,6 +49,10 @@ Use a code editor to make any changes or use your browser to access the website 
 ## Deployment
 
 Use a local broswer to deploy the project for testing
+
+## Credits
+
+It is based on the design "[Zattix](https://www.behance.net/gallery/24796463/ZATTIX)" by Mohammed Awad.
 
 ## Contributing
 
