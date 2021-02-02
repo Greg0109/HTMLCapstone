@@ -14,6 +14,24 @@ $greycolor: #888;
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("/fonts/HelveticaNeueCyr-Light.woff");
+  font-weight: 400;
+}
+
+.gotham-bold { 
+  font-family: "Gotham Bold", sans-serif; 
+}
+
+.gotham-rounded { 
+  font-family: "Gotham Rounded", sans-serif; 
+}
+
+.helvetica-light { 
+  font-family: "Helvetica Neue Light", sans-serif; 
+}
+
 body {
   overflow-x: hidden;
   max-width: 100%;
@@ -176,6 +194,7 @@ form {
 .card-img-top {
   max-width: 300px;
   min-height: 300px;
+  max-height: 300px;
 }
 
 .subtitle {
