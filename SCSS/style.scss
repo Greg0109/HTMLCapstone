@@ -20,16 +20,16 @@ $greycolor: #888;
   font-weight: 400;
 }
 
-.gotham-bold { 
-  font-family: "Gotham Bold", sans-serif; 
+.gotham-bold {
+  font-family: "Gotham Bold", sans-serif;
 }
 
-.gotham-rounded { 
-  font-family: "Gotham Rounded", sans-serif; 
+.gotham-rounded {
+  font-family: "Gotham Rounded", sans-serif;
 }
 
-.helvetica-light { 
-  font-family: "Helvetica Neue Light", sans-serif; 
+.helvetica-light {
+  font-family: "Helvetica Neue Light", sans-serif;
 }
 
 body {
@@ -90,6 +90,7 @@ a:hover {
 
 .dropdown-menu {
   width: 70%;
+
   @media (min-width: 768px) {
     width: 50%;
   }
@@ -277,6 +278,7 @@ footer {
   .links-footer-section {
     margin-left: 20%;
     margin-right: 5%;
+
     h5 {
       color: $redcolor;
       border-bottom: 1px black solid;
@@ -295,6 +297,7 @@ footer {
 
     .categories-footer-section {
       margin-left: -30px;
+
       @media (min-width: 768px) {
         margin-left: 20%;
       }
@@ -302,19 +305,21 @@ footer {
 
     .navigation-footer-section {
       margin-left: -30px;
+
       @media (min-width: 768px) {
         margin-left: 20%;
       }
     }
 
     .location-footer-section {
-      margin-left: -30px; 
+      margin-left: -30px;
+
       .locationbutton {
         h6 {
           color: $redcolor;
           font-weight: bold;
         }
-  
+
         p {
           border: 1px black solid;
           font-weight: bold;
@@ -323,6 +328,7 @@ footer {
           margin-left: 10px;
         }
       }
+
       @media (min-width: 768px) {
         margin-left: 20%;
       }
