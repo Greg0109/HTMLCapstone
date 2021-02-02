@@ -50,6 +50,10 @@ Use a code editor to make any changes or use your browser to access the website 
 
 Use a local broswer to deploy the project for testing
 
+## Video review
+
+Play video on [Loom](https://www.loom.com/share/d15f648b8e8c48a78f61f08497a22b11)
+
 ## Credits
 
 It is based on the design "[Zattix](https://www.behance.net/gallery/24796463/ZATTIX)" by Mohammed Awad.
