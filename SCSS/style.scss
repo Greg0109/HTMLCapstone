@@ -14,18 +14,18 @@ $greycolor: #888;
   font-weight: 700;
 }
 
-.menubar {
-  a {
-    padding-left: 10px;
-  }
-}
-
 .uppernav {
   background-color: $blackcolor;
 
   a {
     text-decoration: none;
     color: white;
+  }
+}
+
+.menubar {
+  a {
+    padding-left: 10px;
   }
 }
 
@@ -195,6 +195,28 @@ form {
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.resultstext {
+  .card-title {
+    text-decoration: none;
+    color: $greycolor;
+  }
+
+  .card-text {
+    text-decoration: none;
+    color: $greycolor;
+  }
+}
+
+.morestoriesimage {
+  background-image: url(/assets/7ee8a531-d613-4434-ae00-85eec5165219_e6f18be3-456a-4754-9a57-1b8a6dea92a2.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    background-size: contain;
   }
 }
 
