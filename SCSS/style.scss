@@ -245,12 +245,29 @@ form {
 
 .morestoriesimage {
   background-image: url(/assets/7ee8a531-d613-4434-ae00-85eec5165219_e6f18be3-456a-4754-9a57-1b8a6dea92a2.jpg);
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
+  height: 100px;
 
   @media (min-width: 768px) {
     background-size: contain;
   }
+}
+
+.image2 {
+  background-image: url(/assets/guitarlandscape.png);
+}
+
+.image3 {
+  background-image: url(/assets/guitarmetal.png);
+}
+
+.image4 {
+  background-image: url(/assets/guitaracousticlandscape.jpeg);
+}
+
+.image5 {
+  background-image: url(/assets/guitarblack.png);
 }
 
 footer {
