@@ -14,6 +14,11 @@ $greycolor: #888;
   font-weight: 700;
 }
 
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .uppernav {
   background-color: $blackcolor;
 
@@ -63,6 +68,13 @@ a:hover {
   font-family: "Gotham Bold", sans-serif;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.dropdown-menu {
+  width: 70%;
+  @media (min-width: 768px) {
+    width: 50%;
+  }
 }
 
 .submitbutton {
@@ -224,10 +236,11 @@ form {
 
 footer {
   border-top: 1px lightgrey solid;
+  width: 100%;
 
-  .categories-footer-section {
-    width: 80%;
-
+  .links-footer-section {
+    margin-left: 20%;
+    margin-right: 5%;
     h5 {
       color: $redcolor;
       border-bottom: 1px black solid;
@@ -243,23 +256,39 @@ footer {
         list-style-type: none;
       }
     }
-  }
 
-  .locationbuttoncategory {
-    margin-left: 30px;
-
-    .locationbutton {
-      h6 {
-        color: $redcolor;
-        font-weight: bold;
+    .categories-footer-section {
+      margin-left: -30px;
+      @media (min-width: 768px) {
+        margin-left: 20%;
       }
+    }
 
-      p {
-        border: 1px black solid;
-        font-weight: bold;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-left: 10px;
+    .navigation-footer-section {
+      margin-left: -30px;
+      @media (min-width: 768px) {
+        margin-left: 20%;
+      }
+    }
+
+    .location-footer-section {
+      margin-left: -30px; 
+      .locationbutton {
+        h6 {
+          color: $redcolor;
+          font-weight: bold;
+        }
+  
+        p {
+          border: 1px black solid;
+          font-weight: bold;
+          padding-left: 5px;
+          padding-right: 5px;
+          margin-left: 10px;
+        }
+      }
+      @media (min-width: 768px) {
+        margin-left: 20%;
       }
     }
   }
