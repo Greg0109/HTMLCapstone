@@ -87,7 +87,6 @@ form {
 .carousel-ad {
   width: 100%;
   height: 100%;
-  border-radius: 5%;
 
   .card-title {
     font-size: 90%;
@@ -145,6 +144,7 @@ form {
 .secondadsection {
   margin-left: -30px;
   width: 115%;
+  background-color: white;
 
   .carousel-inner {
     width: 90%;
@@ -192,6 +192,8 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  background-color: white;
+  border: 0;
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
