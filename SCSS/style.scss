@@ -276,7 +276,6 @@ footer {
   width: 100%;
 
   .links-footer-section {
-    margin-left: 20%;
     margin-right: 5%;
 
     h5 {
@@ -332,6 +331,9 @@ footer {
       @media (min-width: 768px) {
         margin-left: 20%;
       }
+    }
+    @media (min-width: 768px) {
+      margin-left: 20%;
     }
   }
 }
