@@ -4,19 +4,19 @@ $greycolor: #888;
 
 @font-face {
   font-family: "Gotham Rounded";
-  src: url("/fonts/GothamRnd-Light.woff");
+  src: url("../fonts/GothamRnd-Light.woff");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Gotham Bold";
-  src: url("/fonts/Gotham-Bold.woff");
+  src: url("../fonts/Gotham-Bold.woff");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Helvetica Neue Light";
-  src: url("/fonts/HelveticaNeueCyr-Light.woff");
+  src: url("../fonts/HelveticaNeueCyr-Light.woff");
   font-weight: 400;
 }
 
@@ -79,7 +79,7 @@ a:hover {
 }
 
 .searchsection {
-  background-image: url("/assets/music-store.svg");
+  background-image: url("../assets/music-store.svg");
   background-size: auto;
   background-repeat: no-repeat;
   background-color: $redcolor;
@@ -245,7 +245,7 @@ form {
 }
 
 .morestoriesimage {
-  background-image: url("/assets/7ee8a531-d613-4434-ae00-85eec5165219_e6f18be3-456a-4754-9a57-1b8a6dea92a2.jpg");
+  background-image: url("../assets/7ee8a531-d613-4434-ae00-85eec5165219_e6f18be3-456a-4754-9a57-1b8a6dea92a2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100px;
@@ -256,19 +256,19 @@ form {
 }
 
 .image2 {
-  background-image: url("/assets/guitarlandscape.png");
+  background-image: url("../assets/guitarlandscape.png");
 }
 
 .image3 {
-  background-image: url("/assets/guitarmetal.png");
+  background-image: url("../assets/guitarmetal.png");
 }
 
 .image4 {
-  background-image: url("/assets/guitaracousticlandscape.jpeg");
+  background-image: url("../assets/guitaracousticlandscape.jpeg");
 }
 
 .image5 {
-  background-image: url("/assets/guitarblack.png");
+  background-image: url("../assets/guitarblack.png");
 }
 
 footer {
