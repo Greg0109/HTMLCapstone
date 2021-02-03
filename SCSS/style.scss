@@ -274,6 +274,11 @@ form {
 footer {
   border-top: 1px lightgrey solid;
   width: 100%;
+  justify-content: flex-start;
+
+  .footer-logo {
+    height: 30px;
+  }
 
   .links-footer-section {
     margin-right: 5%;
@@ -314,6 +319,7 @@ footer {
       margin-left: -30px;
 
       .locationbutton {
+        align-items: center;
         h6 {
           color: $redcolor;
           font-weight: bold;
@@ -333,7 +339,11 @@ footer {
       }
     }
     @media (min-width: 768px) {
-      margin-left: 20%;
+      margin-left: 35%;
     }
   }
+}
+
+.copyright-footer {
+  margin-bottom: 0;
 }
