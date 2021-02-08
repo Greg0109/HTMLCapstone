@@ -1,6 +1,8 @@
 # Project 4 - HTMLCapstone
 
-> This is the Project 4 in the Microverse course
+This is the Project 4 in the Microverse course. It is based on the design "[Zattix](https://www.behance.net/gallery/24796463/ZATTIX)" by Mohammed Awad.
+The site is called Thomas' Music. It's an online store where also people can also sell their old music equipment.
+The site was build using a combination of CSS and Bootstrap since I feel like that is the best way to approach web design.
 
 ### View in browser
 [Live](https://greg0109.github.io/HTMLCapstone/)
@@ -11,7 +13,7 @@
 ## Built With
 
 - HTML
-- CSS
+- CSS (SASS)
 
 ## Authors
 
@@ -49,6 +51,14 @@ Use a code editor to make any changes or use your browser to access the website 
 ## Deployment
 
 Use a local broswer to deploy the project for testing
+
+## Video review
+
+Play video on [Loom](https://www.loom.com/share/d15f648b8e8c48a78f61f08497a22b11)
+
+## Credits
+
+It is based on the design "[Zattix](https://www.behance.net/gallery/24796463/ZATTIX)" by Mohammed Awad.
 
 ## Contributing
 
